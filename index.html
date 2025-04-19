@@ -5,31 +5,60 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Paolo Boggio - Massaggiatore</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <div class="logo">
-      <img src="PAOLO BOGGIO MASS LOGO.PNG" alt="Logo Paolo Boggio">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="chi-sono.html">Chi Sono</a></li>
-        <li><a href="trattamenti.html">Trattamenti</a></li>
-        <li><a href="galleria.html">Galleria</a></li>
-        <li><a href="recensioni.html">Recensioni</a></li>
-        <li><a href="contatti.html">Contatti</a></li>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">Paolo Boggio</div>
+      <ul class="nav-links">
+        <li><a href="#about">Chi sono</a></li>
+        <li><a href="#services">Servizi</a></li>
+        <li><a href="#contact">Contatti</a></li>
       </ul>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <section class="hero">
-    <h1>Ritrova l’armonia del corpo e della mente</h1>
-    <p>Massaggi olistici e trattamenti personalizzati per il tuo benessere.</p>
+    <h1>Massaggiatore professionista</h1>
+    <p>Benessere, relax e cura della persona</p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Paolo Boggio - Massaggiatore Olistico</p>
+  <section id="about" class="container">
+    <h2>Chi sono</h2>
+    <p>Sono Paolo Boggio, massaggiatore qualificato con anni di esperienza nel settore del benessere. Offro trattamenti personalizzati per ogni esigenza, in un ambiente rilassante e professionale.</p>
+  </section>
+
+  <section id="services" class="container">
+    <h2>Servizi offerti</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Massaggio rilassante</h3>
+        <p>Perfetto per eliminare lo stress e ritrovare l’equilibrio interiore.</p>
+      </div>
+      <div class="project-card">
+        <h3>Massaggio sportivo</h3>
+        <p>Ideale per atleti o per chi desidera sciogliere tensioni muscolari.</p>
+      </div>
+      <div class="project-card">
+        <h3>Trattamenti personalizzati</h3>
+        <p>Ogni persona è diversa: creo un trattamento su misura per te.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contattami</h2>
+    <form action="https://formspree.io/f/moqgdqpj" method="POST">
+      <input type="text" name="name" placeholder="Il tuo nome" required />
+      <input type="email" name="email" placeholder="La tua email" required />
+      <textarea name="message" rows="5" placeholder="Scrivi il tuo messaggio" required></textarea>
+      <button type="submit">Invia messaggio</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Paolo Boggio. Tutti i diritti riservati.</p>
   </footer>
 </body>
 </html>
