@@ -184,6 +184,39 @@ button:hover {
   font-style: italic;
   margin-bottom: 0.5rem;
 }
+/* Testimonianze */
+#testimonianze {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #fefaf6;
+  border-radius: 10px;
+}
+
+#testimonianze h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6b4c3b; /* marroncino */
+}
+
+.testimonial {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #a97c50; /* marroncino più intenso */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+
+.testimonial span {
+  display: block;
+  text-align: right;
+  font-weight: bold;
+  color: #6b4c3b;
+}
 
 .testimonial span {
   font-weight: bold;
