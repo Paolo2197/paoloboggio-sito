@@ -243,6 +243,16 @@ button:hover {
     align-items: center;
     text-align: center;
   }
+.testimonial {
+  display: none;
+  transition: opacity 1s ease-in-out;
+  opacity: 0;
+}
+
+.testimonial.active {
+  display: block;
+  opacity: 1;
+}
 
   .foto-profilo {
     width: 150px;
