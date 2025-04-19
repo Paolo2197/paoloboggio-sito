@@ -165,3 +165,27 @@ button:hover {
   margin: 1rem auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+#testimonianze {
+  padding: 2rem;
+  background-color: #f0e6dc;
+  text-align: center;
+}
+
+.testimonial {
+  margin: 1.5rem auto;
+  max-width: 600px;
+  padding: 1rem;
+  background-color: #fff;
+  border-left: 5px solid #A0522D;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial span {
+  font-weight: bold;
+  color: #A0522D;
+}
