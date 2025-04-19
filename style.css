@@ -138,3 +138,23 @@ button:hover {
     font-size: 1.5rem;
   }
 }
+#chi-sono {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.foto-profilo {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
