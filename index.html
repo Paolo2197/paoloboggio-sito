@@ -92,16 +92,18 @@
   💬 Scrivimi su WhatsApp
 </a>
   <script>
-  let current = 0;
-  const testimonials = document.querySelectorAll('.testimonial');
+  let slides = document.querySelectorAll(".testimonial");
+  let index = 0;
 
-  function showNextTestimonial() {
-    testimonials[current].classList.remove('active');
-    current = (current + 1) % testimonials.length;
-    testimonials[current].classList.add('active');
+  function showSlide(i) {
+    slides.forEach(slide => slide.classList.remove("active"));
+    slides[i].classList.add("active");
   }
 
-  setInterval(showNextTestimonial, 4000);
+  setInterval(() => {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+  }, 4000);
 </script>
 </body>
 </html>
