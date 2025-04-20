@@ -91,19 +91,19 @@
 <a href="https://wa.me/393518460684" target="_blank" class="whatsapp-button">
   💬 Scrivimi su WhatsApp
 </a>
-  <script>
-  let slides = document.querySelectorAll(".testimonial");
-  let index = 0;
+ <script>
+let slides = document.querySelectorAll(".slide");
+let index = 0;
 
-  function showSlide(i) {
-    slides.forEach(slide => slide.classList.remove("active"));
-    slides[i].classList.add("active");
-  }
+function showSlide(i) {
+  slides.forEach(slide => slide.classList.remove("active"));
+  slides[i].classList.add("active");
+}
 
-  setInterval(() => {
-    index = (index + 1) % slides.length;
-    showSlide(index);
-  }, 4000);
+setInterval(() => {
+  index = (index + 1) % slides.length;
+  showSlide(index);
+}, 4000);
 </script>
 </body>
 </html>
